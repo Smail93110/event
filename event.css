@@ -1,0 +1,108 @@
+*{
+
+text-align: center;
+padding: 8px;
+/* border-radius: 30px; */
+cursor: pointer;
+
+}
+
+body{
+
+    transition: .5s;
+    
+}
+
+img{
+margin: 0 auto;
+/* visibility: hidden; */
+transition: 1s;
+
+}
+
+.show{
+
+visibility: visible;
+border-radius: 50%;
+transform: translateX(50%);
+
+transition: 1s;
+
+}
+
+
+
+.mouseEvent{
+
+
+border: 6px solid red;
+width: 220px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+padding: 10px;
+border-radius: 30px;
+
+
+}
+
+
+.themeContainer{
+
+position: fixed;
+top: 0;
+
+
+
+}
+
+.theme{
+height: 30px;
+width: 30px;
+cursor: pointer;
+
+
+}
+
+
+
+.theme2{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    
+    
+    }
+    
+
+
+#dark{
+
+background: black;
+border-radius: 30px;
+
+}
+
+
+#white{
+
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    
+    }
+
+
+.darktheme{
+    background: white;
+
+background-color: rgb(0, 0, 0);
+color: white;
+
+}
+
+.whitetheme2{
+
+background-color: rgb(255, 255, 255);
+color: black;
+
+}
